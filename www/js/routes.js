@@ -12,8 +12,8 @@ routes = [
     url: './pages/hostgamepage.html',
   },
   {
-    path: '/about/',
-    url: './pages/about.html',
+    path: '/bidding/',
+    url: './pages/bidding.html',
   },
   {
     path: '/form/',
