@@ -57,5 +57,21 @@ typings/
 # dotenv environment variables file
 .env
 
+#framework 7 files
 www/framework7
 www/fonts
+
+#node dependenceies
+node_modules/**
+
+#virtualenv
+hackenv/**
+
+#pycharm
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+**.pyc
