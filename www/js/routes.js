@@ -8,6 +8,10 @@ routes = [
     url: './pages/waitingPlayer.html',
   },
   {
+    path: '/hostgamepage/',
+    url: './pages/hostgamepage.html',
+  },
+  {
     path: '/about/',
     url: './pages/about.html',
   },
