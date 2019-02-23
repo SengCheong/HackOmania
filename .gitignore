@@ -65,7 +65,7 @@ www/fonts
 node_modules/**
 
 #virtualenv
-hackenv/**
+**/hackenv/**
 
 #pycharm
 .idea
