@@ -1,5 +1,5 @@
 
-$$(document).on('page:init', '.page[data-name="playerGamePage"]', function (e) {
+$$(document).on('page:init', '.page[data-name="hostgamepage"]', function (e) {
   // Do something here when page loaded and initialized
   console.log("Here")
   firebase.initializeApp(config);
@@ -16,12 +16,13 @@ $$(document).on('page:init', '.page[data-name="playerGamePage"]', function (e) {
       var host = app.data.host;
       var host = 0;
       console.log(host);
-      //Player
+      //Host
       if(host==0){
         var questionDiv = document.getElementById("questionHolder")
         questionDiv.innerHTML = question;
+        var ansDiv = document.getElementById("ansHolder")
+        ansDiv.innerHTML = answer;
       }
-      //host
 
   });
 });
