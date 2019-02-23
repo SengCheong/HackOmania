@@ -41,10 +41,10 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
          console.log(test);
          console.log("I am here");
          app.data.question = "1";
-         URL = "/form/";
+         URL = "/hostgamepage/";
          //this.router.navigate(['/hostgamepage/']);
-         //mainView.router.navigate(URL);
-         mainView.router.loadPage(URL);
+         mainView.router.navigate(URL);
+         //mainView.router.loadPage(URL);
          //$$('#testBtn').click();
       }else{
         console.log("empty")
