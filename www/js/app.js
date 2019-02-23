@@ -13,6 +13,8 @@ var app  = new Framework7({
       user: {
         firstName: 'John',
         lastName: 'Doe',
+        host: '0',
+        question: '0',
       },
     };
   },

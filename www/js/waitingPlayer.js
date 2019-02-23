@@ -18,7 +18,7 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
         });
       }
 
-      if(count==3){
+      if(count!=0){
         var database = firebase.database().ref("startgame");
         database.push().set({
           startGame: "1"
