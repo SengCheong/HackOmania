@@ -11,6 +11,8 @@ navigator.mediaDevices.getUserMedia({ audio: true })
     const mediaRecorder = new MediaRecorder(stream);
     mediaRecorder.start();
 
+    console.log("Recording");
+
     const audioChunks = [];
     mediaRecorder.addEventListener("dataavailable", event => {
       audioChunks.push(event.data);

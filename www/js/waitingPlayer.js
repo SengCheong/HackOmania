@@ -43,9 +43,13 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
          app.data.question = "1";
          URL = "/hostgamepage/";
          //this.router.navigate(['/hostgamepage/']);
-         mainView.router.navigate(URL);
+         //mainView.router.navigate(URL);
          //mainView.router.loadPage(URL);
          //$$('#testBtn').click();
+         if(test !== 1)
+         {
+            mainView.router.navigate("/player_response/");
+         }
       }else{
         console.log("empty")
       }
