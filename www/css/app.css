@@ -1,0 +1,10 @@
+/* Your app styles here */
+body, .page-content {
+    background-color: white;
+    height:500px;
+    -webkit-transition: background-color 1s ease-in-out;
+    -moz-transition: background-color 1s ease-in-out;
+    -o-transition: background-color 1s ease-in-out;
+    -khtml-transition: background-color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
+}
