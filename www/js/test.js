@@ -5,7 +5,7 @@ window.onload = function(){
 
      database.push().set({
          title: "hi",
-         message: "leesengchong",
+         message: "ngsionghock",
          facebook: "1",
          twitter: "1",
          sms: "1"

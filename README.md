@@ -1,17 +1,24 @@
-# Framework7 Single View Starter App Template
+# Application built for fulfilment to HackOmania 2019 AI Challenge 
 
-A simple single view Framework7 starter app template.
+Simple, Reverse Cahoots-like game built using Framework 7 and Django utilizng Ai Singapore's singlish speech to text transcribtion
+
+## Game Rules
+
+Players take turn to play the role of a host
+Host receives a question and suggested answer
+Players record their voice response, which is transcribed into singlish and are offered an opportunity to correct any errors from the transcription
+Players submit their answer anonymously along
+Players vote for the answer that is most likely to be correct
+Host reveals selected correct answer
 
 ## Usage
 
 ### 1. Download this repository
 ```
-git clone https://github.com/framework7io/framework7-template-single-view my-app
+git clone https://github.com/SengCheong/HackOmania
 ```
 
-Repository will be downloaded into `my-app/` folder
-
-### 2. Instal dependencies
+### 2. Install dependencies
 
 Go to the downloaded repository folder and run:
 ```
@@ -28,19 +35,3 @@ npm run serve
 
 App will be opened in browser at `http://localhost:8080/`
 
-## Use with cordova
-
-Just put the contents of `www` folder in your cordova's project root `www` folder
-
-## One command install
-
-```
-git clone https://github.com/framework7io/framework7-template-single-view my-app &&
-cd my-app &&
-npm install &&
-npm run serve
-```
-
-## Live Preview
-
-https://framework7io.github.io/framework7-template-single-view/
