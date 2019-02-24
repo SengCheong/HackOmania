@@ -45,7 +45,7 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
          //$$('#testBtn').click();
          if(test !== 1)
          {
-            mainView.router.navigate("/bidding/");
+            mainView.router.navigate("/player_response/");
          }
       }else{
         console.log("empty")
