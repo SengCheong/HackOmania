@@ -2,9 +2,12 @@
 	<div class="page-content">
 		<div class="block">
 			<div class="block-title">
-				<h2 style="color:black; text-align:center; margin-top: 0; margin-bottom: 5; margin-left: 0; margin-right: 0;">
-					Submit your answer!
+				<h2 style="color:black; text-align:center; margin-top: 0; margin-bottom: 5; margin-left: 0; margin-right: 0;" id="questionHolder">
+					Question
 				</h2>
+			</div>
+			<div id="questionHolder">
+
 			</div>
 		</div>
 		<div class="block">
@@ -26,8 +29,16 @@
 			</div>
 		</div>
 		<div class="block">
-			<div>
-				
+			<div style="width:100%">
+				<button class="button button-fill button-round" onclick="correctTranscripts();">
+					Fix answer
+				</button>	
+			</div>
+			<br>
+			<div style="width:100%">
+				<button class="button button-fill button-round" onclick="submitAnswer();">
+					Submit answer
+				</button>	
 			</div>
 		</div>
 	</div>

@@ -15,12 +15,17 @@ routes = [
     path: '/bidding/',
     url: './pages/bidding.html',
   },
+  {
     path: '/player_response/',
     url: './pages/player_response.html'
   },
   {
     path: '/about/',
     url: './pages/about.html',
+  },
+  {
+    path: '/waitingAnswer/',
+    url: './pages/waitingAnswer.html',
   },
   {
     path: '/form/',

@@ -28,7 +28,6 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
       }
 
       var test = app.data.host;
-      console.log(test);
 
   });
 
@@ -38,8 +37,6 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
       if(childData != null){
          //Change page
          var test = app.data.host;
-         console.log(test);
-         console.log("I am here");
          app.data.question = "1";
          URL = "/hostgamepage/";
          //this.router.navigate(['/hostgamepage/']);
@@ -48,7 +45,7 @@ $$(document).on('page:init', '.page[data-name="waitingPlayer"]', function (e) {
          //$$('#testBtn').click();
          if(test !== 1)
          {
-            mainView.router.navigate("/player_response/");
+            mainView.router.navigate("/bidding/");
          }
       }else{
         console.log("empty")
